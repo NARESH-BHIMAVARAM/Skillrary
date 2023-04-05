@@ -17,10 +17,10 @@ SoftAssert soft= new SoftAssert();
 	home.clickSkillraryDemoApp();
 	web.handleChildBrowser();
 	
-	soft.assertEquals(demoapp.getPageHeader(),"SKillRary-Ecommerce");
+	soft.assertEquals(demoapp.getPageHeader(),"SkillRary-ECommerce");
 	web.scrollTillElement(demoapp.getContactUsLink());
 	
-	
+	demoapp.clickContactUs();
 	soft.assertTrue(contact.getContactUsIcon().isDisplayed());
 	
 	
