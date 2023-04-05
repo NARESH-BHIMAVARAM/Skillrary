@@ -20,7 +20,7 @@ public class ContactUsPage {
 	private WebElement emailTF;
 	@FindBy(name="subject")
 	private WebElement subjectTF;
-	@FindBy(name="messsage")
+	@FindBy(name="message")
 	private WebElement messageTextArea;
 	@FindBy(xpath="//button[text()='Send us mail']")
 	private WebElement sendUsMailButton;
